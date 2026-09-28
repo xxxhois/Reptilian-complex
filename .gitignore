@@ -1,0 +1,21 @@
+# Android / Gradle build outputs
+.gradle/
+**/build/
+work/
+
+# Local IDE files
+.idea/
+*.iml
+local.properties
+
+# Local APK artifacts are uploaded to GitHub Releases instead of Git history
+outputs/*.apk
+
+# Local machine and secret configuration
+*.jks
+*.keystore
+.env
+
+# Generated / temporary files
+.DS_Store
+Thumbs.db
